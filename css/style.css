@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+/* float related selectors */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
+/* body selectors */
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.page-container{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+/* header selectors */
+h1{
+    line-height: 50px;
+    letter-spacing: -1px;
+    font-weight: 900;
+    font-size: 46px;
+    text-align: center;
+    color: #e53170;
+}
+
+/* main selectors */
+p{
+    margin: 63px 20px 35px 20px;
+    line-height: 130%;
+    text-align: justify;
+    text-align-last: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* main-card related selectors */
+.card{
+    width: 30.3%;
+    background-color: #0F0E17;
+    margin: 29px 20px;
+    height: 100%;
+    box-shadow: 0px 0px 12px grey;
+}
+
+.card-img{
+    width: 116px;
+}
+
+.card-data{
+    height: 116px;
+    padding: 18px;
+}
+
+.card-data .card-name{
+    line-height: 100%;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.card-data .card-job{
+    margin-top: 12px;
+    margin-bottom: 10px;
+    line-height: 100%;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.card-data .card-mail{
+    line-height: 100%;
+    color: #6ECBF2;
+    text-decoration: none;
+    font-size: 18px;
+}
